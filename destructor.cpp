@@ -8,4 +8,5 @@ class angka
     int panjang;
     public:
     angka(int); // constructor
+    ~angka(); //destructor
 }
