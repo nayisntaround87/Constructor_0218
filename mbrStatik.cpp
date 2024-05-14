@@ -18,3 +18,10 @@ class mahasiswa
         setID;
     }
 };
+
+int mahasiswa::nim = 218;
+
+void mahasiswa::setID()
+{
+    id = ++nim;
+}
