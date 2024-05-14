@@ -3,10 +3,13 @@ using namespace std;
 
 class angka
 {
-    private:
+private:
     int *arr;
     int panjang;
-    public:
+public:
     angka(int); // constructor
     ~angka(); //destructor
-}
+    void cetakData();
+    void isiData();
+};
+// definisi member function
